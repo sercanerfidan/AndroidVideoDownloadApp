@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="videoListLoad">Video list loading..</string>
+    <string name="adsTextTr">Youtube videolarını mp3 olarak indirmek ister misiniz?</string>
+         <string-array name="adsTextTr_array">
+        <item>Evet</item>
+        <item>Sonra</item>
+        <item>Asla</item>
+    </string-array>
+    <string name="adsTextEn">Do you want to download YouTube videos as mp3?</string>
+     <string-array name="adsTextEn_array">
+        <item>Yes</item>
+        <item>Later</item>
+        <item>Never</item>
+    </string-array>
+     <string name="adsTextDe">Möchten Sie YouTube-Videos als MP3-Download?</string>
+     <string-array name="adsTextDe_array">
+        <item>Ja</item>
+        <item>Später</item>
+        <item>Nie</item>
+    </string-array>
+      <string name="adsTextZh">你要下载的YouTube视频的MP3？</string>
+     <string-array name="adsTextZh_array">
+        <item>是的 </item>
+        <item>后 </item>
+        <item>从来没有</item>
+    </string-array>
+     <string name="adsTextCs">Chcete stahovat videa z YouTube ve formátu MP3?</string>
+     <string-array name="adsTextCs_array">
+        <item>Ano</item>
+        <item>Později</item>
+        <item>Nikdy</item>
+    </string-array>
+      <string name="adsTextNl">Wil je YouTube-video\'s downloaden als mp3?</string>
+     <string-array name="adsTextNl_array">
+        <item>Ja</item>
+        <item>Later</item>
+        <item>Nooit</item>
+    </string-array>
+          <string name="adsTextFr">Voulez-vous télécharger des vidéos YouTube au format MP3?</string>
+     <string-array name="adsTextFr_array">
+        <item>Oui</item>
+        <item>Plus tard</item>
+        <item>Jamais</item>
+    </string-array>
+     <string name="adsTextIt">Vuoi scaricare i video di YouTube in mp3?</string>
+     <string-array name="adsTextIt_array">
+        <item>Sì</item>
+        <item>Più tardi</item>
+        <item>Mai</item>
+    </string-array>   
+          <string name="adsTextJa">あなたはmp3としてYouTubeの動画をダウンロードしますか？</string>
+     <string-array name="adsTextJa_array">
+        <item>はい </item>
+        <item>後で </item>
+        <item>決して</item>
+    </string-array>
+     <string name="adsTextKo">당신은 MP3로 YouTube 동영상을 다운로드 하시겠습니까?</string>
+     <string-array name="adsTextKo_array">
+        <item>예 </item>
+        <item>후</item>
+        <item>어머 놀랐다</item>
+    </string-array>
+    <string name="adsTextPl">Chcesz pobierać filmy z YouTube w formacie mp3?</string>
+     <string-array name="adsTextPl_array">
+        <item>Tak</item>
+        <item>Później</item>
+        <item>Nigdy</item>
+    </string-array>
+        <string name="adsTextRu">Хотите скачать YouTube видео, как mp3?</string>
+     <string-array name="adsTextRu_array">
+        <item>Да</item>
+        <item>позже</item>
+        <item>никогда не</item>
+    </string-array>
+          <string name="adsTextEs">¿Quieres descargar vídeos de YouTube como mp3?</string>
+     <string-array name="adsTextEs_array">
+        <item>Sí</item>
+        <item>Más tarde</item>
+        <item>Nunca</item>
+    </string-array>
+           <string name="adsTextAr">هل تريد لتحميل أشرطة فيديو يوتيوب كما MP3؟ </string>
+     <string-array name="adsTextAr_array">
+        <item>نعم</item>
+        <item>فيما بعد </item>
+        <item>أبدا</item>
+    </string-array>
+    <string name="adsTextBg">Искате ли да изтеглите видеоклипове YouTube като mp3?</string>
+     <string-array name="adsTextBg_array">
+        <item>да</item>
+        <item>по-късно</item>
+        <item>никога</item>
+    </string-array>
+       <string name="adsTextCa">Vols descarregar vídeos de YouTube com mp3?</string>
+     <string-array name="adsTextCa_array">
+        <item>Sí</item>
+        <item>Més tard</item>
+        <item>mai</item>
+    </string-array>
+     <string name="adsTextHr">Želite li skinuti YouTube videa kao mp3?</string>
+     <string-array name="adsTextHr_array">
+        <item>Da</item>
+        <item>Kasnije</item>
+        <item>Nikad</item>
+    </string-array>
+     <string name="adsTextDa">Ønsker du at downloade YouTube-videoer som mp3?</string>
+     <string-array name="adsTextDa_array">
+        <item>Ja</item>
+        <item>Senere</item>
+        <item>Aldrig</item>
+    </string-array>
+     <string name="adsTextFn">Haluatko ladata YouTube-videoita MP3?</string>
+     <string-array name="adsTextFn_array">
+        <item>Kyllä</item>
+        <item>Myöhemmin</item>
+        <item>Ei koskaan</item>
+    </string-array>
+     <string name="adsTextEl">Θέλετε να κατεβάσετε βίντεο από το YouTube ως mp3;</string>
+     <string-array name="adsTextEl_array">
+        <item>ναί</item>
+        <item>αργότερα </item>
+        <item>ποτέ</item>
+    </string-array>
+     <string name="adsTextIw">האם אתה רוצה להוריד קטעי וידאו YouTube כקובץ MP3?</string>
+     <string-array name="adsTextIw_array">
+        <item>כן</item>
+        <item>מאוחר יותר</item>
+        <item>אף פעם לא</item>
+    </string-array>
+       <string name="adsTextHi">आप एमपी 3 के रूप में यूट्यूब वीडियो डाउनलोड करना चाहते हैं?</string>
+     <string-array name="adsTextHi_array">
+        <item>हां </item>
+        <item>बाद में</item>
+        <item>कभी नहीं</item>
+    </string-array>
+      <string name="adsTextHu">Szeretné letölteni YouTube videók mp3?</string>
+     <string-array name="adsTextHu_array">
+        <item>igen</item>
+        <item>később</item>
+        <item>soha</item>
+    </string-array>
+     <string name="adsTextIn">Apakah Anda ingin men-download video YouTube sebagai mp3?</string>
+     <string-array name="adsTextIn_array">
+        <item>Ya</item>
+        <item>Kemudian</item>
+        <item>Tak pernah</item>
+    </string-array>
+    <string name="adsTextLt">Ar norite atsisiųsti vaizdo įrašus iš YouTube, kaip mp3?</string>
+     <string-array name="adsTextLt_array">
+        <item>Taip</item>
+        <item>Vėliau</item>
+        <item>Niekada</item>
+    </string-array>
+     <string name="adsTextLv">Vai jūs vēlaties, lai lejupielādētu YouTube video, kā mp3?</string>
+     <string-array name="adsTextLv_array">
+        <item>Jā</item>
+        <item>Vēlāk</item>
+        <item>Nekad</item>
+    </string-array>
+    
+      <string name="adsTextNb">Ønsker du å laste ned YouTube-videoer som mp3?</string>
+     <string-array name="adsTextNb_array">
+        <item>Ja</item>
+        <item>Senere</item>
+        <item>Aldri</item>
+    </string-array>
+    <string name="adsTextPt">Você quer baixar vídeos do YouTube como mp3?</string>
+     <string-array name="adsTextPt_array">
+        <item>Sim</item>
+        <item>Mais tarde</item>
+        <item>Nunca</item>
+    </string-array>
+    <string name="adsTextRo">Vrei să descărcați clipuri video pe YouTube ca MP3?</string>
+     <string-array name="adsTextRo_array">
+        <item>Da</item>
+        <item>Mai târziu</item>
+        <item>Niciodată</item>
+    </string-array>
+      <string name="adsTextSr">Да ли желите да преузмете ИоуТубе видео снимке и мп3?</string>
+     <string-array name="adsTextSr_array">
+        <item>да</item>
+        <item>касније</item>
+        <item>никад</item>
+    </string-array>
+         <string name="adsTextSk">Chcete sťahovať videá z YouTube vo formáte MP3?</string>
+     <string-array name="adsTextSk_array">
+        <item>áno</item>
+        <item>neskôr</item>
+        <item>nikdy</item>
+    </string-array>
+      <string name="adsTextSl">Ali želite, da prenesete YouTube video posnetke v mp3?</string>
+     <string-array name="adsTextSl_array">
+        <item>Yes</item>
+        <item>Kasneje</item>
+        <item>Nikoli</item>
+    </string-array>
+     <string name="adsTextSv">Vill du ladda ner YouTube-videor som mp3?</string>
+     <string-array name="adsTextSv_array">
+        <item>Yes</item>
+        <item>Senare</item>
+        <item>Aldrig</item>
+    </string-array>
+     <string name="adsTextTl">Gusto mo bang i-download ang mga video sa YouTube bilang mp3?</string>
+     <string-array name="adsTextTl_array">
+        <item>Oo</item>
+        <item>Mamaya</item>
+        <item>Hindi kailanman</item>
+    </string-array>    
+      <string name="adsTextTh">คุณต้องการที่จะดาวน์โหลดวิดีโอ YouTube เป็น mp3?</string>
+     <string-array name="adsTextTh_array">
+        <item>ใช่ </item>
+        <item>ต่อมา</item>
+        <item>ไม่เคย</item>
+    </string-array>
+    <string name="adsTextUk">Хочете завантажити YouTube відео, як mp3?</string>
+     <string-array name="adsTextUk_array">
+        <item>та</item>
+        <item>пізніше</item>
+        <item>ніколи не</item>
+    </string-array>
+       <string name="adsTextVi">Bạn có muốn tải video YouTube như mp3?</string>
+     <string-array name="adsTextVi_array">
+        <item>Vâng</item>
+        <item>Sau</item>
+        <item>Không bao giờ</item>
+    </string-array>
+</resources>

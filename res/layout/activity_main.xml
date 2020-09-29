@@ -1,0 +1,110 @@
+<TableLayout android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+   
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:background="@color/mintCream"
+      android:layout_height="wrap_content" >
+     
+
+   	           <EditText
+   	               android:id="@+id/txtSearchBox"
+   	               android:layout_width="0dp"
+   	               android:layout_height="50dp"
+   	               android:layout_marginTop="2dip"
+   	               android:layout_weight="2.5"
+   	               android:background="@drawable/rect_text_edit"
+   	               android:ems="10"
+   	               android:focusable="true"
+   	               android:minHeight="48dip"
+   	               android:minWidth="48dip"
+   	               android:paddingStart="10dip"
+   	               android:paddingTop="5dip"
+   	               android:textColor="@android:color/black"/>
+
+   	           <ImageButton
+   	               android:id="@+id/button1"
+   	               android:layout_width="0dp"
+   	               android:layout_height="50dp"
+   	               android:layout_marginLeft="3dp"
+   	               android:layout_marginRight="3dp"
+   	               android:layout_marginTop="1dp"
+   	               android:layout_weight="0.5"
+   	               android:background="@drawable/search_button"
+   	               android:text="Search" />
+   	           
+   	          <!--    <ImageButton
+   	                android:id="@+id/button2"
+   	                android:layout_width="0dp"
+   	                android:layout_height="50dp"
+   	                android:layout_marginRight="2dp"
+   	                android:layout_marginTop="2dp"
+   	                android:layout_weight="0.5"
+   	                android:background="@drawable/clearb"
+   	                android:text="Clear" /> -->
+         
+ 	</TableRow>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+     <ListView
+         android:id="@+id/listView1"
+         android:listSelector="@drawable/list_selector"
+         android:divider="#FFCC00"
+        android:dividerHeight="2dp"
+       android:transcriptMode="alwaysScroll"         
+        android:fastScrollEnabled="true"
+    android:persistentDrawingCache="scrolling"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+     </ListView>
+  	         <!--  android:divider="@color/dividColor"  -->
+  	          <!--  android:divider="@color/dividColor"-->
+
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+   		  
+   	<LinearLayout
+      android:id="@+id/LinearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="70dip"
+      android:padding="5dip" >
+     
+   	          <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"/>
+    
+      
+   	  
+       <WebView
+          android:id="@+id/webView1"
+          android:layout_width="200dp"
+          android:visibility="gone"
+          android:layout_height="10dp" />
+      
+       <WebView
+          android:id="@+id/webView2"
+          android:layout_width="150dp"
+          android:visibility="gone"	
+          android:layout_height="10dp" />
+       
+   
+	</LinearLayout>
+	
+</TableLayout>

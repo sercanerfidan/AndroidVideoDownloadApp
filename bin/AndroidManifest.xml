@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easyvdoapp"
+    android:versionCode="5"
+    android:versionName="1.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED"/>
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+   
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/easyvdo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <service android:name="com.easyvdoapp.DownloadService"/>
+         <service android:name="com.appnext.appnextsdk.DownloadService"/>
+         
+         <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+          android:theme="@android:style/Theme" />
+
+        <activity android:name="com.startapp.android.publish.AppWallActivity"
+          android:theme="@android:style/Theme.Translucent"
+          android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize" 
+            android:name="com.easyvdoapp.MainActivity"
+            android:label="@string/app_name" >
+         
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
